@@ -17,7 +17,7 @@ const Input = styled.input`
   border-radius: 60px;
   &:before {
     top: 5px;
-    left: 10px;
+    left: 5px;
     position: absolute;
     box-sizing: border-box;
     border-radius: 60px;
@@ -29,7 +29,7 @@ const Input = styled.input`
   }
   &:checked {
     &::before {
-      left: 210px;
+      left: 215px;
     }
   }
 `;
