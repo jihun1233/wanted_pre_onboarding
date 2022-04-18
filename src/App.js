@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import './App.css';
 import Dropdown from './components/Dropdown';
 import Input from './components/Input';
 import Slider from './components/Slider';
@@ -10,6 +9,9 @@ const AppBox = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  h2{
+    margin-top: 100px;
+  }
 `;
 function App() {
   return (
