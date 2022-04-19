@@ -2,6 +2,14 @@
 
 원티드 프리온보딩 프론트엔드
 
+## 배포
+https://voluble-liger-54e3b9.netlify.app/
+
+## 실행
+yarn install
+
+yarn start
+
 ## 구현상황
 
 css 툴로 styled-components를 사용하였습니다.
