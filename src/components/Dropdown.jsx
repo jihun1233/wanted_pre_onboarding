@@ -95,7 +95,7 @@ function Dropdown() {
   useEffect(() => {
     const result = items.filter((i) => i.includes(inputValue));
     setSearchedItems([...result]);
-  }, [inputValue]);
+  }, [inputValue, items]);
   return (
     <DropdownBox>
       <DropButton onClick={toggleIsListVisible}>
