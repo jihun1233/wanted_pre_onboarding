@@ -93,7 +93,6 @@ const Display = styled.div`
 function Slider() {
   const [slideValue, setSlideValue] = useState(0);
   const onChange = (e) => {
-    console.log(e.target.value);
     setSlideValue(e.target.value);
   };
   const point = [0, 25, 50, 75, 100];

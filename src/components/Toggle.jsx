@@ -48,7 +48,6 @@ const TextBox = styled.div`
 function Toggle() {
   const [toggle, setToggle] = useState(false);
   const onToggle = () => {
-    console.log(toggle);
     setToggle(!toggle);
   };
   return (
