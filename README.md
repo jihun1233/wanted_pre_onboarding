@@ -2,6 +2,9 @@
 
 원티드 프리온보딩 프론트엔드
 
+## ♻ 리팩토링
+https://github.com/jihun1233/POB_pre_assingment
+
 ## 배포
 https://voluble-liger-54e3b9.netlify.app/
 
